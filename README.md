@@ -8,7 +8,7 @@ Simulation of a system of coupled non-linear second-order differential equations
 
 ## Derivation
 
-The derivation of the system of differential equations can be found here:  
+The derivation of the system of second order non-linear differential equations can be found here:  
 [View Derivation](https://example.com)
 
 ---
@@ -85,7 +85,7 @@ Copy the contents of the following directory:
 kineticStrands/crack/
 ```
 
-into your frontend project:
+into the frontend folder:
 - App.jsx  
 - App.css  
 - index.html  
@@ -102,7 +102,7 @@ npm run dev
 
 ### 7. Access the Application
 
-Open the following URL in your browser:
+Open the following URL in the browser:
 
 ```
 http://localhost:5173
