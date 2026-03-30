@@ -36,7 +36,6 @@ The project was developed and tested with the following environment:
 ![Node.js](https://img.shields.io/badge/Node.js-LTS-green)
 ![React](https://img.shields.io/badge/React-Frontend-blue)
 ![Three.js](https://img.shields.io/badge/Three.js-3D-black)
-![Vite](https://img.shields.io/badge/Vite-Build-purple)
 
 ---
 
