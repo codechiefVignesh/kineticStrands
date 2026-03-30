@@ -6,14 +6,14 @@ Simulation of a system of coupled **non-linear second-order differential equatio
 
 ---
 
-## 📄 Derivation
+## Derivation
 
 The derivation of the system of differential equations can be found here:  
-👉 [Click here](https://example.com)
+[Click here](https://example.com)
 
 ---
 
-## ⚙️ Environment
+## Environment
 
 Make sure you have the following installed:
 
@@ -24,7 +24,7 @@ Make sure you have the following installed:
 
 ---
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repository
 ```bash
@@ -94,7 +94,7 @@ http://localhost:5173
 
 ---
 
-## 📌 Notes
+## Notes
 
 - Ensure backend is running before starting frontend  
 - Uses FastAPI for simulation and React + Three.js for visualization  
