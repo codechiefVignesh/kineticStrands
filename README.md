@@ -1,6 +1,6 @@
 # kineticStrands
 
-Simulation of a system of coupled **non-linear second-order differential equations** using Lagrangian mechanics.
+Simulation of a system of coupled non-linear second-order differential equations using Lagrangian mechanics.
 
 ![Simulation Preview](image.png)
 
@@ -9,18 +9,34 @@ Simulation of a system of coupled **non-linear second-order differential equatio
 ## Derivation
 
 The derivation of the system of differential equations can be found here:  
-[Click here](https://example.com)
+[View Derivation](https://example.com)
 
 ---
 
-## Environment
+## Build Environment
 
-Make sure you have the following installed:
+The project was developed and tested with the following environment:
 
-- **Python**: 3.14.3  
-- **Node.js (LTS)**: v24.14.1  
-- **npm**: 11.11.0  
-- **OS**: Windows 11  
+- Python 3.14.3  
+- Node.js v24.14.1 (LTS)  
+- npm 11.11.0  
+- Windows 11  
+
+---
+
+## Dependencies
+
+### Backend
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-Framework-green)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical-orange)
+![SciPy](https://img.shields.io/badge/SciPy-Scientific-blue)
+
+### Frontend
+![Node.js](https://img.shields.io/badge/Node.js-LTS-green)
+![React](https://img.shields.io/badge/React-Frontend-blue)
+![Three.js](https://img.shields.io/badge/Three.js-3D-black)
+![Vite](https://img.shields.io/badge/Vite-Build-purple)
 
 ---
 
@@ -64,16 +80,16 @@ uvicorn main:app --reload
 
 ### 5. Configure Frontend
 
-Copy the contents of the following files from:
+Copy the contents of the following directory:
 
 ```
 kineticStrands/crack/
 ```
 
 into your frontend project:
-- `App.jsx`
-- `App.css`
-- `index.html`
+- App.jsx  
+- App.css  
+- index.html  
 
 ---
 
@@ -85,9 +101,10 @@ npm run dev
 
 ---
 
-### 7. Open in Browser
+### 7. Access the Application
 
-Go to:
+Open the following URL in your browser:
+
 ```
 http://localhost:5173
 ```
@@ -96,6 +113,7 @@ http://localhost:5173
 
 ## Notes
 
-- Ensure backend is running before starting frontend  
-- Uses FastAPI for simulation and React + Three.js for visualization  
-- Simulation is highly sensitive to initial conditions (chaotic system)
+- Ensure the backend server is running before starting the frontend  
+- The simulation is sensitive to initial conditions due to its chaotic nature  
+- Backend uses FastAPI for numerical computation and API handling  
+- Frontend uses React and Three.js for visualization  
